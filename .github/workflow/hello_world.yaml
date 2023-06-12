@@ -1,4 +1,4 @@
- name:Hellow world workflow
+ name: Hello world workflow
 
  on:
    push:
@@ -17,12 +17,12 @@ jobs:
       -uses: actions/checkout@v2
        run: echo "Hello World"
        shell: bash
-  goofbye:
+  goodbye:
      runs_on: ubuntu_latest
     steps:
        -name: goodbye world
        run: echo "Good Bye world "
-      shell: babsh
+      shell: bash
 
 
 
