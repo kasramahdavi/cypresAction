@@ -3,9 +3,9 @@ name: hello world workflows
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
