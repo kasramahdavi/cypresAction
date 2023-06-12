@@ -1,13 +1,12 @@
 name: hello world workflows
 
 on:
-  push:
+push:
     branches:
       - main
-  pull_request:
+    pull_request:
       - main
-  workflow_dispatch:
-
+    workflow_dispatch:
 jobs:
   hello:
     runs-on: ubuntu-latest
